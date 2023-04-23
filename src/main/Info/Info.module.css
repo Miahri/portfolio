@@ -1,0 +1,24 @@
+.infoBlock {
+    height: 100vh;
+    width: 100%;
+    background-color: #F9EBC7;
+}
+
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 100%; /*???????????????*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    width: 300px;
+}
+
+.photo img {
+    height: 400px;
+    width: 300px;
+}
