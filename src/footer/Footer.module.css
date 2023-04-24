@@ -1,0 +1,28 @@
+.footer {
+    height: 40vh;
+    background-color: #888D4D;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.container h2, span {
+    margin: 0;
+    padding: 0;
+    color: #FAF8CF;
+}
+
+.socialMediaDiv {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaDiv button {
+    width: 50px;
+    height: 50px;
+    background-color: #FAF8CF;
+    border: none;
+}
