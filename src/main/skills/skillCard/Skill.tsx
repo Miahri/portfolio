@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skill.module.css'
-import card from "../../../common/Card.module.css"
+import card from "../../../common/styles/Card.module.css"
 
 export type SkillType = {
     id: string

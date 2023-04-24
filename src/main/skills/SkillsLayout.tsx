@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './SkillsLayout.module.css'
-import container from '../../common/Container.module.css'
-import block from "../../common/CardBlock.module.css"
-import Skill, {SkillType} from "./skill-component/Skill";
+import container from '../../common/styles/Container.module.css'
+import block from "../../common/styles/CardBlock.module.css"
+import Skill, {SkillType} from "./skillCard/Skill";
 import {v1} from "uuid";
 
 let skills: Array<SkillType> = [

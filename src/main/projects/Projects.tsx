@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../projects/Projects.module.css";
-import container from "../../common/Container.module.css";
-import block from "../../common/CardBlock.module.css"
+import container from "../../common/styles/Container.module.css";
+import block from "../../common/styles/CardBlock.module.css"
 import { v1 } from 'uuid';
 import ProjectCard, {ProjectCardType} from "./projectCard/ProjectCard";
 

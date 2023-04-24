@@ -1,0 +1,24 @@
+.hireBlock {
+    height: 20vh;
+    background-color: #5F5B4F;
+}
+
+.container {
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.container h2 {
+    margin: 0;
+    padding: 0;
+    color: #FAF8CF;
+}
+
+.hireBtn {
+    width: 150px;
+    height: 50px;
+    background-color: #FAF8CF;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}

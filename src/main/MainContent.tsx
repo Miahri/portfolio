@@ -3,6 +3,7 @@ import styles from './MainContent.module.css'
 import Info from "./info/Info";
 import SkillsLayout from "./skills/SkillsLayout";
 import Projects from "./projects/Projects";
+import HirePage from "./hirePage/HirePage";
 
 const MainContent = () => {
     return (
@@ -10,6 +11,7 @@ const MainContent = () => {
             <Info />
             <SkillsLayout />
             <Projects />
+            <HirePage />
         </div>
     );
 };
