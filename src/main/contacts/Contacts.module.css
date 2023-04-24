@@ -27,10 +27,12 @@
 
 .contactForm textarea {
     padding: 120px 20px;
+    box-sizing: border-box;
     resize: none;
 }
 
 .sendBtn {
     background-color: #be8027;
     margin: 20px;
+    box-sizing: border-box;
 }
