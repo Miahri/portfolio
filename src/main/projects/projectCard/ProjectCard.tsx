@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "../../projects/projectCard/ProjectCard.module.css";
+import card from "../../../common/Card.module.css"
 
 export type ProjectCardType = {
     id: string
@@ -14,10 +15,10 @@ type ProjectCardPropsType = {
 
 const ProjectCard: React.FC<ProjectCardPropsType> = (props) => {
     return (
-        <div className={styles.projectCard}>
+        <div className={`${card.card} ${styles.projectCard}`}>
             <img src={props.projects.photo} alt="project-demo"/>
             <h3>{props.projects.name}</h3>
-            <div>{props.projects.description}</div>
+            <span>{props.projects.description}</span>
         </div>
     );
 };

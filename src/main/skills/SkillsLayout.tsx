@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SkillsLayout.module.css'
 import container from '../../common/Container.module.css'
+import block from "../../common/CardBlock.module.css"
 import Skill, {SkillType} from "./skill-component/Skill";
 import {v1} from "uuid";
 
@@ -21,10 +22,10 @@ let skills: Array<SkillType> = [
 
 const SkillsLayout = () => {
     return (
-        <div className={styles.skillsLayout}>
+        <div className={`${block.cardBlock} ${styles.skillsLayout}`}>
             <div className={`${container.container} ${styles.container}`}>
                 <h2>Скиллы</h2>
-                <div className={styles.skills}>
+                <div className={block.blockEl}>
                     {skills.map(sk => <Skill skills={sk}/>)}
                 </div>
             </div>

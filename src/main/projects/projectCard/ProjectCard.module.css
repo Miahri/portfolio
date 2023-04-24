@@ -1,13 +1,10 @@
 .projectCard {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    width: 400px;
+    background-color: #be8027;
+    color: #FAF8CF;
 }
 
 .projectCard img {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
 }

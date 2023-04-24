@@ -1,0 +1,11 @@
+.cardBlock {
+    height: 100vh;
+    width: 100%;
+}
+
+.blockEl {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
