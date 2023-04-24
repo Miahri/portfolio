@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from './MainContent.module.css'
-import Info from "./Info/Info";
+import Info from "./info/Info";
+import SkillsLayout from "./skills/SkillsLayout";
+import Projects from "./projects/Projects";
 
 const MainContent = () => {
     return (
         <div className={styles.mainContent}>
             <Info />
+            <SkillsLayout />
+            <Projects />
         </div>
     );
 };

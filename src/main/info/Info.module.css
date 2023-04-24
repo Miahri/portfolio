@@ -1,0 +1,16 @@
+.infoBlock {
+    height: 100vh;
+    width: 100%;
+    background-color: #FAF8CF;
+}
+
+.introduction {
+    background-color: #E9A648;
+    width: 300px;
+    padding: 10px;
+}
+
+.avatar img {
+    height: 400px;
+    width: 300px;
+}

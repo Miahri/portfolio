@@ -1,0 +1,13 @@
+.skillCard {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.skillCard img {
+    width: 100px;
+    height: 100px;
+}

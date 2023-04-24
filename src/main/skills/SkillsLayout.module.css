@@ -1,0 +1,21 @@
+.skillsLayout {
+    height: 100vh;
+    width: 100%;
+    background-color: #858A4A;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container h2 {
+    color: #FAF8CF;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
