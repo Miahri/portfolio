@@ -4,6 +4,7 @@ import Info from "./info/Info";
 import SkillsLayout from "./skills/SkillsLayout";
 import Projects from "./projects/Projects";
 import HirePage from "./hirePage/HirePage";
+import Contacts from "./contacts/Contacts";
 
 const MainContent = () => {
     return (
@@ -12,6 +13,7 @@ const MainContent = () => {
             <SkillsLayout />
             <Projects />
             <HirePage />
+            <Contacts />
         </div>
     );
 };

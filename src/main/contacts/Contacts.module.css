@@ -1,0 +1,36 @@
+.contactsBlock {
+    background-color: #FAF8CF;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h2 {
+    color: #be8027;
+}
+
+.contactForm {
+    width: 60%;
+    height: 400px;
+    padding: 0;
+}
+
+.contactForm input, textarea {
+    width: 100%;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #be8027;
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    padding: 120px 20px;
+    resize: none;
+}
+
+.sendBtn {
+    background-color: #be8027;
+    margin: 20px;
+}
